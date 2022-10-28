@@ -81,7 +81,8 @@
 % Needed to deal a paragraphs
 \RequirePackage{parskip}
 % Needed to deal hyperlink
-\RequirePackage[hidelinks,unicode,pdfpagelabels=false]{hyperref}
+\definecolor{link}{HTML}{5E81AC}
+\RequirePackage[colorlinks=true, allcolors= link,unicode,pdfpagelabels=false]{hyperref}
 \hypersetup{%
   pdftitle={},
   pdfauthor={},
